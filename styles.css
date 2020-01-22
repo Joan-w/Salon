@@ -1,0 +1,280 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding:0 ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header{
+    background-color: crimson;
+    height:10vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    overflow: hidden;
+}
+header div ul{
+    float:right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+header div ul li{
+    display: inline-block;
+}
+header div ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding:10px;
+    border:1px solid #fff; 
+    transition: o.6s ease;
+}
+header div ul li a:hover{
+    background-color: #fff;
+    color:purple;
+}
+ul li .active a{
+    background-color: #fff;
+    color: #000;
+}
+header .logo{
+    float: left;
+    height: fit-content;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    position: fixed;
+    overflow: hidden;
+    padding:10px;
+    border:3px solid #fff;
+    left:5px;
+    top: 2.5px;
+    width: fit-content;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;    
+}
+#home{
+    height:700px;
+    background-image: url('/home/joan/Desktop/Salon/Project Images/Brushes.jpg');
+    background-size: cover;
+    display:inline-block;
+    width:100%;
+}
+
+#about{
+    height:700px;
+    background-color:white;
+    display:inline-block;
+    width:100%;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#services{
+    height:3600px;
+    background-image: url('/home/joan/Desktop/Salon/Project Images/bgdservices.jpg');
+    background-size: cover;
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+.container .box .icon{
+    position: relative;
+    width:80px;
+    height:80px;
+    color:#fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s;
+}
+.container .box:nth-child(1) .icon{
+    box-shadow:0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.container .box:nth-child(1):hover .icon{
+    box-shadow:0 0 0 400px #e91e63;
+}
+.container .box:nth-child(2) .icon{
+    box-shadow:0 0 0 0 #23e629;
+    background: #23e629;
+}
+.container .box:nth-child(2):hover .icon{
+    box-shadow:0 0 0 400px #23e629;
+}
+.container .box:nth-child(3) .icon{
+    box-shadow:0 0 0 0 #2196f3;
+    background: #2196f3;
+}
+.container .box:nth-child(3):hover .icon{
+    box-shadow:0 0 0 400px #2196f3;
+}
+.container .box:nth-child(4) .icon{
+    box-shadow:0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.container .box:nth-child(4):hover .icon{
+    box-shadow:0 0 0 400px #e91e63;
+}
+.container .box:nth-child(5) .icon{
+    box-shadow:0 0 0 0 #23e629;
+    background: #23e629;
+}
+.container .box:nth-child(5):hover .icon{
+    box-shadow:0 0 0 400px #23e629;
+}
+.container .box:nth-child(6) .icon{
+    box-shadow:0 0 0 0 #2196f3;
+    background: #23e629;
+}
+.container .box:nth-child(6):hover .icon{
+    box-shadow:0 0 0 400px #2196f3;
+}
+.container .box:nth-child(7) .icon{
+    box-shadow:0 0 0 0 #e91e63;
+    background: #23e629;
+}
+.container .box:nth-child(7):hover .icon{
+    box-shadow:0 0 0 400px #e91e63;
+}
+.container .box:nth-child(2) .icon{
+    box-shadow:0 0 0 0 #23e629;
+    background: #23e629;
+}
+.container .box:nth-child(2):hover .icon{
+    box-shadow:0 0 0 400px #23e629;
+}
+#contacts{
+    height:700px;
+    background-image: url('/home/joan/Desktop/Salon/Project Images/bgd contacts.jpg');
+    background-size: cover;
+    display:inline-block;
+    width: 100%;
+}
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+  } 
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.title h2{
+    color:#fff;
+    font-size: 90px;
+    text-transform: uppercase;
+}
+.button{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    border:1px solid #fff;
+    padding: 10px 30px;
+    color:#fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color:purple;
+}
+.img-wrap{
+    width:65%;
+}
+.img-wrap img{
+    width:65%;
+    padding:5px;
+    border-radius:25%;
+    box-shadow:0 0 4px #999999;
+    float: left;
+}
+span{
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+.quote{
+    color: red;
+    font-weight: bold;
+}
+h4{
+    color: red;
+    font-weight: bold;
+}
+.history{
+    font-size:20px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#about h3{
+    color: rgb(3, 3, 51);
+    text-decoration:underline;
+}
+
