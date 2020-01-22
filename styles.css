@@ -42,16 +42,17 @@ header .logo{
     float: left;
     height: fit-content;
     color: white;
-    font-size: 15px;
+    font-size: 10px;
     text-transform: uppercase;
     text-align: center;
     position: fixed;
     overflow: hidden;
-    padding:10px;
-    border:3px solid #fff;
-    left:5px;
-    top: 2.5px;
+    padding:2px;
+    border:2px solid #fff;
     width: fit-content;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: bold;
 }
 .main{
     max-width: 1200px;
@@ -71,7 +72,7 @@ header .logo{
     display:inline-block;
     width:100%;
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #services{
     margin:0;
@@ -80,7 +81,7 @@ header .logo{
     justify-content: center;
     align-items: center;
     height: 700px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     background-image: url('/home/joan/Desktop/Salon/Project Images/slide4.jpg');
     background-size: cover;
 }
@@ -210,9 +211,16 @@ h4{
 .history{
     font-size:20px;
     color:black;
-    font-family: 'Zhi Mang Xing', cursive;
+    font-family: 'Josefin Sans', sans-serif;
 }
 #about h3{
     color: rgb(3, 3, 51);
     text-decoration:underline;
+}
+#services h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
 }
