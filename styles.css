@@ -78,146 +78,115 @@ header .logo{
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 #services{
-    height:3600px;
-    background-image: url('/home/joan/Desktop/Salon/Project Images/bgdservices.jpg');
-    background-size: cover;
-    display:flex;
-    flex-wrap: wrap;
-    width:100%;
-    margin: 0;
+    margin:0;
     padding: 0;
+    display:flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    height: 700px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url('/home/joan/Desktop/Salon/Project Images/slide4.jpg');
+    background-size: cover;
 }
 .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width:1200px;
+    height:auto;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap:10px;
+    padding:10px;
+    box-sizing:border-box;
 }
 .container .box{
     position: relative;
-    width: 350px;
-    padding: 40px;
-    background: #fff;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
-    border-radius: 4px;
-    margin: 20px;
-    box-sizing: border-box;
-    overflow: hidden;
+    background: #219e21;
+    color: #fff;
+    padding:20px 40px 40px;
     text-align: center;
-}
-.container .box .icon{
-    position: relative;
-    width:80px;
-    height:80px;
-    color:#fff;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 50%;
-    font-size: 40px;
-    font-weight: 700;
-    transition: 1s;
-}
-.container .box:nth-child(1) .icon{
-    box-shadow:0 0 0 0 #e91e63;
-    background: #e91e63;
-}
-.container .box:nth-child(1):hover .icon{
-    box-shadow:0 0 0 400px #e91e63;
-}
-.container .box:nth-child(2) .icon{
-    box-shadow:0 0 0 0 #23e629;
-    background: #23e629;
-}
-.container .box:nth-child(2):hover .icon{
-    box-shadow:0 0 0 400px #23e629;
-}
-.container .box:nth-child(3) .icon{
-    box-shadow:0 0 0 0 #2196f3;
-    background: #2196f3;
-}
-.container .box:nth-child(3):hover .icon{
-    box-shadow:0 0 0 400px #2196f3;
-}
-.container .box:nth-child(4) .icon{
-    box-shadow:0 0 0 0 #e91e63;
-    background: #e91e63;
-}
-.container .box:nth-child(4):hover .icon{
-    box-shadow:0 0 0 400px #e91e63;
-}
-.container .box:nth-child(5) .icon{
-    box-shadow:0 0 0 0 #23e629;
-    background: #23e629;
-}
-.container .box:nth-child(5):hover .icon{
-    box-shadow:0 0 0 400px #23e629;
-}
-.container .box:nth-child(6) .icon{
-    box-shadow:0 0 0 0 #2196f3;
-    background: #23e629;
-}
-.container .box:nth-child(6):hover .icon{
-    box-shadow:0 0 0 400px #2196f3;
-}
-.container .box:nth-child(7) .icon{
-    box-shadow:0 0 0 0 #e91e63;
-    background: #23e629;
-}
-.container .box:nth-child(7):hover .icon{
-    box-shadow:0 0 0 400px #e91e63;
-}
-.container .box:nth-child(2) .icon{
-    box-shadow:0 0 0 0 #23e629;
-    background: #23e629;
-}
-.container .box:nth-child(2):hover .icon{
-    box-shadow:0 0 0 400px #23e629;
+    overflow: hidden;
+    border-radius:20px;
 }
 #contacts{
     height:700px;
     background-image: url('/home/joan/Desktop/Salon/Project Images/bgd contacts.jpg');
     background-size: cover;
     display:inline-block;
-    width: 100%;
+    width:100%;
 }
-input[type=text], select, textarea {
-    width: 50%;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
+.contact-title{
+    margin-top: 100px;
+    color:#fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+    font-size: 40px;
+    line-height:10px;
+    margin-top:10px;
+    margin-left: 38%;
+}
+.contact-title h2{
+    font-size: 28px;
+    margin-top: 12px;
+    margin-left: 30%;
+}
+form{
+    margin-top:50px;
+    transition: all 4s ease-in-out;
+    margin-left: 25%;
+}
+.form-control{
+    width:600px;
+    background: transparent;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
-  .container {
-    border-radius: 5px;
-    padding: 20px;
-    top: 50%;
-    left: 50%;
-  } 
-.title{
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 45px;
+    margin-top: 20px;
+}
+footer{
+    width:100%;
+    background-color: rgb(7, 0, 0);
+    padding: 60px 0px;
+    height: 5vh;
+}
+footer ul{
+    float:right;
+    list-style-type:none;
+    margin-top: 25px;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    text-decoration:none;
+    color:#fff;
+    padding:10px;
+    border:1px solid #fff; 
+    transition: o.6s ease;
+}
+footer ul li a:hover{
+    background-color: #fff;
+    color:purple;
+}
+  .title{
     position: absolute;
     top:50%;
     left:50%;

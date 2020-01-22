@@ -74,35 +74,55 @@
     </div>
 
     <div id="services">
-        <h1>Our Services</h1>
-        
+        <h2>Our Services</h2>
+       <div class="container">
+            <div class="box">
+                <h2>1</h2>
+                <h3>Hair Rituals</h3>
+                <p>Our staff always performs a hair type and condition assessment, to ensure you achieve the right look.</p>
+            </div>   
+
+            <div class="box">
+                <h2>2</h2>
+                <h3>Hair Cuts</h3>
+                <p>We understand that a good hair cut is essential for looks. We therefore offer a menu that suits your needs by allowing you to update your look and make it work for your style.</p>
+            </div>
+
+            <div class="box">
+                <h2>3</h2>
+                <h3>Manicure and Pedicure</h3>
+                <p>We offer basic manicures, paraffin wax pedicures, French manicures, acrylic nails, acrylic gel nails, infill, full soak acrylic nails, and re-vanishing.</p>
+            </div>
+        </div>    
     </div>
 
     <div id="contacts">
-        <div class="container">
-            <form action="action_page.php">
-          
-              <label for="fname">First Name</label>
-              <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          
-              <label for="lname">Last Name</label>
-              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          
-              <label for="country">Country</label>
-              <select id="country" name="country">
-                <option value="australia">Australia</option>
-                <option value="canada">Canada</option>
-                <option value="usa">USA</option>
-              </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
+        <div class="contact-title">
+            <h1>Say Hello</h1>
+            <h2>We are always ready to serve you!</h2>
+        
+            <div class="contact-form">
+                <form id="contact-form" method="post" action="">
+                <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+        
+                <input name="email" type="text" class="form-control" placeholder="Your Email" required><br>
+        
+                <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+        
+                <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                
+            </div>
         </div>
     </div>
-    
+    <footer>
+        <div class="wrapper">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contacts">Contact us</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
