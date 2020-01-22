@@ -97,7 +97,7 @@ header .logo{
 }
 .container .box{
     position: relative;
-    background:plum;
+    background:rgb(153, 45, 153);
     border-bottom: gray;
     color: #fff;
     padding:20px 40px 40px;
