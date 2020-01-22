@@ -60,7 +60,7 @@ header .logo{
 }
 #home{
     height:700px;
-    background-image: url('/home/joan/Desktop/Salon/Project Images/Brushes.jpg');
+    background-image: url('/home/joan/Desktop/git img/Brushes.jpg');
     background-size: cover;
     display:inline-block;
     width:100%;
@@ -82,7 +82,7 @@ header .logo{
     align-items: center;
     height: 700px;
     font-family: 'Josefin Sans', sans-serif;
-    background-image: url('/home/joan/Desktop/Salon/Project Images/slide4.jpg');
+    background-image: url('/home/joan/Desktop/git img/slide4.jpg');
     background-size: cover;
 }
 .container{
@@ -106,7 +106,7 @@ header .logo{
 }
 #contacts{
     height:700px;
-    background-image: url('/home/joan/Desktop/Salon/Project Images/bgd contacts.jpg');
+    background-image: url('/home/joan/Desktop/git img/bgd contacts.jpg');
     background-size: cover;
     display:inline-block;
     width:100%;
